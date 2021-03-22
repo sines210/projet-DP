@@ -1,0 +1,52 @@
+#article2
+{height: 100vh;
+ background: no-repeat center/100% 100% url('/assets//img/soCliche.jpeg');
+width: 100vw;
+display: grid;
+grid-template-columns: 1fr 1fr;
+place-items: center;
+}
+
+.section-text
+{width: 80vh;
+color: white;
+grid-column: 2/3;
+}
+
+#a2-title
+{font-size: 3rem;
+font-weight: bold;
+text-transform: uppercase;}
+
+#a2-paragraphe
+{font-size: 1.6rem;}
+
+.a2-but
+{    border: 2px solid grey;
+    padding: 1% 3%;
+    border-radius: 35px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    text-transform: uppercase;
+}
+
+.b-left
+    {
+    background-color: transparent;
+    color: whitesmoke;
+
+    margin-right: 2%;
+}
+
+    .b-right
+    {
+    background-color: whitesmoke;
+    color: #333333;}
+
+    .a2-but:hover
+    {    border: 2px solid white;
+    }
+    
+

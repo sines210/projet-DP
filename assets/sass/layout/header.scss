@@ -1,0 +1,224 @@
+//SUR NAV PROMO
+.promo
+{position: fixed;
+  z-index: 20;
+  top: 0;
+  display: grid;
+  place-items: center;
+  height: 6vh;
+  width: 100%;
+  font-size: 2rem;
+  background: black;
+  color:white;
+  font-weight: 700;
+}
+
+//banniere
+.head-banniere
+{height: 115vh;
+  background:  no-repeat center/100% 80% url("/assets/img/street-art.jpg");
+display: grid;
+place-items: center;}
+
+#ad-banniere
+{color :black;
+font-weight: 900;
+font-size: 3rem;
+text-transform: uppercase;}
+
+.text-banniere
+{display: grid;
+place-items: center;}
+
+.but-banniere
+{padding: 1% 3%;
+border-radius: 35px;
+background-color: white;
+border: 1px solid #222222;
+color: #222222;
+font-size: 2rem;
+font-weight: 900;
+transition: transform 0.4s ease;
+}
+
+.but-banniere:hover
+{background-color: ivory;
+  border: 2px solid #222222;
+color: white;
+}
+
+//NAVIGATION
+
+
+.c-desk1
+{-ms-flex: 1 2 33%;
+  flex: 0 0 33%;
+  max-width: 33%;
+  margin: 1% 3%;
+  width: 100%; 
+}
+.mb-nav
+{-ms-flex: 1 2 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin: 0% 0;
+  width: 100%; 
+}
+
+nav{   
+   
+   background-color: #8e8e8e;
+   text-transform: uppercase;
+   display: flex;
+   align-content: center;
+  flex-wrap: wrap;
+  height: 12vh;
+  width: 101%;
+      position: fixed;
+    top: 6vh;
+    z-index: 20;
+  box-shadow: 1px 2px 2px#222222;
+}
+li{
+  transition: transform 1s ease;
+}
+
+
+li a:hover, li:hover
+{
+color: black;}
+
+.head-nav {
+      display: flex;
+      list-style: none;
+      font-size: 1.6rem;
+      position: relative;
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: 26px;
+    }
+    .cross
+    {display: none;}
+    .head-nav li 
+    {width: 30%;
+      margin-top: 3%;
+    }
+    .head-name {
+      font-weight: 900;
+      letter-spacing: 4px;
+      line-height: 26px;
+      font-size: 2rem;
+      list-style: none;
+      position: relative;
+      margin-top: -3%;
+    }
+
+    .logo 
+    {width: 10%;
+      margin-bottom:-2%
+     }
+    
+
+    .onglets-navigation
+{    display: flex;
+    font-size: 2rem;
+    list-style: none; 
+    justify-content: space-between; 
+    margin-top: 13%;
+  }
+  .onglets-navigation li 
+  {margin: 0 15%;}
+
+    .menu-burger {
+        display: none; }
+      
+      .menu-burger div {
+        width: 25px;
+        height: 3px;
+        background-color: #006937;
+        margin: 5px;
+        transition: all 0.4s ease;
+      }
+
+      a:link {
+        color :#006937;
+        text-decoration: none;
+    }
+    
+   a:visited {
+        color : #006937;
+        text-decoration: none;
+    }
+    
+        a:active
+        {   text-decoration: none;
+            color :#006937;
+    }
+
+  
+
+      @media screen and (max-width: 768px) {
+  
+
+            .promo
+             {font-size: 1.3rem;}
+
+             #ad-banniere
+             {font-size: 1.2rem;
+            text-transform: lowercase;}
+      
+          .head-name
+          {font-size: 1.4rem;}
+      
+          //on affiche le menu burger au format mobile et on transforme le curseur avec un pointer au survol de celui-ci
+          .menu-burger {
+            display: block;
+            cursor: pointer;
+          }
+
+          .head-nav {
+            position: fixed;
+            z-index: 9;
+            left: 0;
+            height: 100vh;
+            width: 25vh;
+            top: 0;
+            background-color: white;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.8s ease-in;
+            transform: translateX(-110%);
+
+          }
+          .crossed
+          {display: flex;
+          justify-content: flex-end;}
+          .cross
+          { font-size: 2.5rem;
+             display: block;
+          cursor: pointer;
+          position: fixed;
+          z-index: 29;
+      }
+      .deploy {
+        transform: translateX(0%);}
+          }
+         
+
+          
+          @keyframes links-fading {
+            from {
+              opacity: 0;
+              transform: translateX(-100px);
+            }
+            to {
+              opacity: 1;
+              transform: translateX(0px);
+            }
+          }
+      
+        
+      
+      

@@ -1,0 +1,21 @@
+
+
+ #btn-scroll
+ {  display: grid;
+    place-items: center;
+     height: 10vh;
+ width: 10vh;
+ border-radius: 50%;
+background-color: black;
+font-size:4.3rem;
+color: white;
+position: fixed;
+bottom : 50px;
+right: 30px;
+opacity: 0.5;
+cursor: pointer;
+transition: all 0.4s ease;
+}
+
+#btn-scroll:hover
+{opacity: 1;}

@@ -1,0 +1,94 @@
+
+
+//ONGLETS FOOTER FORMAT MOBILE
+.onglets-foot-responsive
+{   display: none;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 1px 5px#222222;
+
+}
+
+.foot-nav
+{  display:flex;
+    flex-direction: row;
+    justify-content: space-around;}
+
+.foot-nav li
+{  color: #006937;
+    font-size: 2.5rem;
+    font-weight: 800;
+    list-style: none;
+}
+.lif i
+{margin: 0 10%;
+}
+
+
+//pre-foot-logoµ
+
+.pre-foot
+{display: grid;
+    place-items: center;
+height: 70vh;
+border-top: 1px solid black;}
+
+.foot-title
+{color: #006937;
+font-size: 5rem;
+letter-spacing: 4px;
+text-transform: uppercase;}
+.foot-reclam
+{
+font-size: 2rem;
+color:#C7C032;}
+
+
+
+.lien-foot, .social-network, .links-prefoot
+{display: flex;
+    list-style: none;}
+
+.li-foot, .sn
+{color: #333333;
+font-size: 1.8rem;}
+.uni
+{font-size: 2rem;}
+
+
+
+
+//footer
+footer
+{background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 8vh;
+color: white;
+padding: 0 3% ;}
+.logo-git i
+{font-size: 3rem;
+transition: 0.5s ease;
+color:white}
+.logo-git i:hover
+{color:#006937}
+
+.brand-left
+{font-size: 1.2rem;}
+.brand-vert
+{color:  #62EE87;}
+
+.logo-foot
+{width: 15%;}
+
+@media screen and (max-width: 1024px)
+{
+    footer 
+    {display: block; }
+}

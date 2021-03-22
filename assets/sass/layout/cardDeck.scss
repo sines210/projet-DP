@@ -1,0 +1,43 @@
+// .cardDeck
+
+.boutique
+{margin: 25vh 5vw 0 5vw;}
+
+.card 
+{margin: 6%;}
+
+.card-img-top
+{height: 30rem;}
+
+.pagination
+{margin:8% 0 3% 0}
+
+
+// icones
+.iconesImgCards i
+{font-size: 4rem;
+color: black;
+margin-left: 5%;}
+.icon-hidden
+{ opacity: 0;
+    margin-left: 30%;
+    transform: translateY(0%);
+    transition: 0.5s ease;}
+.hid
+{border: 3px dashed black;}
+.de
+{border:none}
+.deployI
+{opacity: 1;
+transform: translateY(200%);}
+
+@media screen and (max-width: 768px){
+    .boutique
+{margin: none;}
+.card 
+{margin-left:-5%;}
+}
+
+
+
+
