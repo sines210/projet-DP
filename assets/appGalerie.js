@@ -35,7 +35,19 @@ crossClose.addEventListener("click", () =>
 }
 deployMenu()
 
+  //dropdown connexion
 
+  var menuDrop = document.querySelector('.connect');
+  var toDrop = document.querySelector('.arrow-show');
+  
+  toDrop.addEventListener('mouseover', (event) => {
+    menuDrop.classList.add('toDrop');
+  })
+
+  document.body.addEventListener('click', ()=>{
+    menuDrop.classList.remove('toDrop');
+  })
+  
 
 //cards icons 
 let iconsCards = document.querySelectorAll('.iconesImgCards');
@@ -74,5 +86,7 @@ let deployIcons = () =>{
   
   }
   deployIcons();
+
+
 
 

@@ -51,9 +51,16 @@ color: white;
 
 
 .c-desk1
-{-ms-flex: 1 2 33%;
-  flex: 0 0 33%;
-  max-width: 33%;
+{-ms-flex: 1 2 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin: 1% 3%;
+  width: 100%; 
+}
+.c-desk2
+{-ms-flex: 1 2 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
   margin: 1% 3%;
   width: 100%; 
 }
@@ -69,8 +76,8 @@ nav{
    
    background-color: #8e8e8e;
    text-transform: uppercase;
-   display: flex;
-   align-content: center;
+  //  display: flex;
+  align-content: center;
   flex-wrap: wrap;
   height: 12vh;
   width: 101%;
@@ -120,14 +127,13 @@ color: black;}
     
 
     .onglets-navigation
-{    display: flex;
+{   
+    display: flex;
     font-size: 2rem;
     list-style: none; 
-    justify-content: space-between; 
+    // justify-content: space-between; 
     margin-top: 13%;
   }
-  .onglets-navigation li 
-  {margin: 0 15%;}
 
     .menu-burger {
         display: none; }
@@ -155,7 +161,23 @@ color: black;}
             color :#006937;
     }
 
-  
+  //DROPDOWN
+  .connect
+  {display: none;
+    color: #333333;
+    background-color: ivory;
+    list-style: none;
+    position: relative;
+    top : 45%;
+  }
+
+  .toDrop
+  {display: block;}
+
+
+  .head-banniere
+  {display: flex;
+  justify-content: center;}
 
       @media screen and (max-width: 768px) {
   
@@ -204,6 +226,10 @@ color: black;}
       }
       .deploy {
         transform: translateX(0%);}
+
+          .connect
+          {top: 55%;}
+
           }
          
 

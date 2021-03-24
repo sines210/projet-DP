@@ -22,4 +22,4 @@
          
 
              
-                <script src="../assets/app.js"></script>
+                <script src="/assets/mainApp.js"></script>
