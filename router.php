@@ -28,8 +28,8 @@ if($page === 'galerie3'){
     require "views/galerie3.php";
 }
 
-if($page === 'tchat'){
-    require "views/tchat.php";
+if($page === 'chat'){
+    require "views/chat.php";
 }
 
 if($page === 'favoris'){
@@ -45,5 +45,17 @@ if($page === 'connexion'){
 }
 
 if($page === 'deconnexion'){
-    require "views/deconnexion.php";
+    require "config/deconnexion.php";
+}
+
+if($page === 'clicIconeHeart'){
+    require "views/clicIconeHeart.php";
+}
+
+if($page === 'clicIconeChat'){
+    require "views/clicIconeChat.php";
+}
+
+if($page === 'favoris'){
+    require "views/favoris.php";
 }

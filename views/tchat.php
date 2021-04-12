@@ -56,19 +56,19 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script src="https://code.jquery.com/jquery-1.12.4.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="js/bootstrap.min.js"></script><script type="text/javascript">         
          var isopen = false;
  
-         function openNav(x) {
+//          function openNav(x) {
  
-            if(!isopen){
-               isopen = !isopen;
-               document.getElementById("myNav").style.height = "100%";
-               x.classList.toggle("change");
-            }else{
-               isopen = !isopen;
-               document.getElementById("myNav").style.height = "0%";
-               x.classList.toggle("change");
-            }
+//             if(!isopen){
+//                isopen = !isopen;
+//                document.getElementById("myNav").style.height = "100%";
+//                x.classList.toggle("change");
+//             }else{
+//                isopen = !isopen;
+//                document.getElementById("myNav").style.height = "0%";
+//                x.classList.toggle("change");
+//             }
  
-}
+// }
 
 document.getElementById('msg').scrollTop = document.getElementById('msg').scrollHeight;      
 
@@ -127,3 +127,6 @@ $('#envoi').click(function(e){
              this.rows = minRows + rows;
          });
       </script>
+
+
+   <!-- ce qui serait bien c de recoder le chat à ma facon avec des requetes ajax en post, garder le systeme de session qui à l'air de fonctionner puis peut etre ajouter certaines fonctionnalités comme la date des messages  -->

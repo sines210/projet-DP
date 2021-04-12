@@ -1,6 +1,6 @@
 <?php
-require "fonction.php";
+require "functions.php";
 
-unset($_SESSION['id']);
+unset($_SESSION['username']);
 
-header('Location: index.php?page=connexion');
+header('Location: index.php?page=home');

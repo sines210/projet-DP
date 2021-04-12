@@ -14,15 +14,16 @@ if (isset($_POST['pseudo']) && isset($_POST['password']) && isset($_POST['checkP
     else if(strlen($password)< 4){
         $error = 'Le mot de passe doit contenir au moins 4 caractères';
     }
-     else {
+     else {  
         // criptage du password
         $encryptedPass = password_hash($password, PASSWORD_BCRYPT);
         
         // insertion dans la bdd et connexion
         if (create($mail, $login, $encryptedPass)) {
-            session_start();
-            $_SESSION['id'] = $login;
-            header("Location: index.php?page=tchat");
+            // session_start();
+            $_SESSION['username'] = $login;
+            header("Location: index.php?page=galerie");
         }
     }
 } 
+  

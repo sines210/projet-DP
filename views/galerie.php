@@ -6,11 +6,13 @@
             <article class="cardDeck">
               <div class="row row-cols-1 row-cols-md-2 g-2">
                 <div class="col">
-                  <div class="card" style='width: 38rem; '>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                    <div class="card" style='width: 38rem; '>
+                       <div class="iconesImgCards">
+                           <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/mandalorian.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Baby Yoda</h5>
@@ -20,10 +22,12 @@
                 </div>
                 <div class="col">
                   <div class="card" style='width: 38rem'>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                  <div class="iconesImgCards">
+                           <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/mirror.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Selfie</h5>
@@ -32,10 +36,12 @@
                 </div>
                 <div class="col">
                   <div class="card" style='width: 38rem; '>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                  <div class="iconesImgCards">
+                          <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/monPrecieux.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Mon précieux</h5>
@@ -45,10 +51,12 @@
                 </div>
                 <div class="col">
                   <div class="card" style='width: 38rem; '>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                  <div class="iconesImgCards">
+                        <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/noFun.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">No Fun </h5>
@@ -60,10 +68,12 @@
               <div class="row row-cols-1 row-cols-md-2 g-2">
                 <div class="col">
                   <div class="card" style='width: 38rem; '>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                  <div class="iconesImgCards">
+                         <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/ideas.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Femme aux cheveux</h5>
@@ -73,10 +83,12 @@
                 </div>
                 <div class="col">
                   <div class="card" style='width: 38rem; '>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                  <div class="iconesImgCards">
+                          <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/kids.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Kids</h5>
@@ -86,10 +98,12 @@
                 </div>
                 <div class="col">
                   <div class="card" style='width: 38rem; '>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                  <div class="iconesImgCards">
+                           <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/kiss.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Bisou covid</h5>
@@ -99,10 +113,12 @@
                 </div>
                 <div class="col">
                   <div class="card" style='width: 38rem; '>
-                    <div class="iconesImgCards">
-                      <i class="far fa-heart"></i>
-                      <i class="far fa-comments"></i>
-                    </div>
+                      <div class="iconesImgCards">
+                           <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
                     <img src="./assets/img/kiss2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card titleRomance covid</h5>
@@ -125,4 +141,4 @@
               </li></ul>
         </div> 
 
-        <script src="../assets/appGalerie.js"></script>
+        <script src="/assets/appGalerie.js"></script>

@@ -2,26 +2,33 @@
    session_start();
  
    include ('../bd/connexionDB.php');
-   
+
  
    // $DB = new connexionDB();
  
-   if(isset($_SESSION['id'])){ 
+   if(isset($_SESSION['pseudo'])){ 
+
  
       $mess = htmlspecialchars(trim($_GET['message']));
  
       if(isset($mess) && !empty($mess)){
  
          $verif_user = $db->query("SELECT id FROM user WHERE id = ?",
-            array($_SESSION['id']));
+            array($_SESSION['pseudo']));
  
          $verif_user = $verif_user->fetch();
  
-         if(isset($verif_user['id'])){
+         if(isset($verif_user['pseudo'])){
  
             $date_message = date('Y-m-d H:i:s');
-            $db->insert("INSERT INTO tchat (id_pseudo, message, date_message) VALUES (?, ?, ?)",
-            array($_SESSION['id'], $mess, $date_message));
+            // $db->insert("INSERT INTO tchat (id_pseudo, message, date_message) VALUES (?, ?, ?)",
+            // array($_SESSION['pseudo'], $mess, $date_message));
+            $sql = 'INSERT INTO tchat (id_pseudo, message, date_message) VALUES (:pseudo, :message, :date_message)';
+            $newUser = $db->prepare($sql);
+            $newUser->bindValue(":pseudo", $log, PDO::PARAM_STR);
+            $newUser->bindValue(":message", $password, PDO::PARAM_STR);
+            $newUser->bindValue(":date_message", $date_message);
+            $response = $newUser->execute();
             
 
          $lastID = $db->query("SELECT id FROM tchat WHERE id_pseudo = ? ORDER BY date_message DESC LIMIT 1", 

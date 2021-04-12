@@ -1,5 +1,21 @@
 
 
+<?php
+
+   include('bd/connexionDB.php');
+
+
+   $see_tchat = $db->query("SELECT user.pseudo , content, tchat_content.id  
+   FROM tchat_content
+   LEFT JOIN user ON tchat_content.id = user.tchat_content_id
+   ORDER BY tchat_content.id ASC
+   LIMIT 100");
+
+$see_tchat = $see_tchat->fetchAll();
+   
+
+
+   ?>
 
 
 
@@ -14,6 +30,8 @@
                    <input type="submit" id='tr'name='submit' class="btn btn-dark btnSub" value='envoyer'/>
                  </form>
              </div>
-     </article>  
 
+     </article>  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
 <script src="../assets/app.js"></script>
+<script src="../assets/ajax.js"></script>

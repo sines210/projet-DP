@@ -4,14 +4,15 @@
 
 <article class="inscription">
 
-  <form>
+  <form method="post">
    <div class="mb-3">
      <label for="pseudo" class="form-label">Votre pseudo</label>
-      <input type="text" class="form-control" name='pseudo' id="pseudoConnexion" >
+      <input type="text" class="form-control" name='login' id="pseudoConnexion" >
    </div>
+
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">

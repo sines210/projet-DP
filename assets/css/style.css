@@ -693,4 +693,53 @@ label {
   margin-top: 25vh;
 }
 
+.main-article-chat {
+  height: 80vh;
+  margin-top: 10%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 100%;
+}
+
+#tchat {
+  height: 50vh;
+  width: 90vw;
+  background-color: blanchedalmond;
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px dashed #333333;
+}
+
+.form-control-chat-message {
+  width: 150vh;
+}
+
+#tchatForm {
+  margin-top: -5%;
+}
+
+.pseudo {
+  color: blueviolet;
+  font-weight: 800;
+}
+
+.content {
+  color: black;
+}
+
+.form-control-accueil {
+  width: 30vw;
+}
+
+@media screen and (max-width: 768px) {
+  .main-article-chat {
+    margin-top: 30%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

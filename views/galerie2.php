@@ -6,10 +6,12 @@
        <div class="row row-cols-1 row-cols-md-2 g-2">
         <div class="col">
           <div class="card" style='width: 38rem; '>
-            <div class="iconesImgCards">
-              <i class="far fa-heart"></i>
-              <i class="far fa-comments"></i>
-            </div>
+          <div class="iconesImgCards">
+                        <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
             <img src="./assets/img/umbrella.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Jeune fille au parapluie</h5>
@@ -19,10 +21,12 @@
         </div>
         <div class="col">
           <div class="card" style='width: 38rem; '>
-            <div class="iconesImgCards">
-              <i class="far fa-heart"></i>
-              <i class="far fa-comments"></i>
-            </div>
+          <div class="iconesImgCards">
+                          <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
             <img src="./assets/img/wearMask.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Porter un masque</h5>
@@ -32,10 +36,12 @@
         </div>
         <div class="col">
           <div class="card" style='width: 38rem; '>
-            <div class="iconesImgCards">
-              <i class="far fa-heart"></i>
-              <i class="far fa-comments"></i>
-            </div>
+          <div class="iconesImgCards">
+                           <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
             <img src="./assets/img/woman.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Une femme</h5>
@@ -45,10 +51,12 @@
         </div>
         <div class="col">
           <div class="card" style='width: 38rem; '>
-            <div class="iconesImgCards">
-              <i class="far fa-heart"></i>
-              <i class="far fa-comments"></i>
-            </div>
+          <div class="iconesImgCards">
+                          <form action="<?='index.php?page=clicIconeHeart'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-heart"></i></button> </form>
+                            <form action="<?='index.php?page=clicIconeChat'?>" method="post">
+                              <button class="subIcon" style="background-color:transparent; border:none" type="submit">   <i class="far fa-comments"></i></button>  </form>
+                       </div>
             <img src="./assets/img/desinfection.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Désinfection</h5>

@@ -3,17 +3,18 @@ require 'functions.php';
 
 $error = null;
 
-if(isset($_POST['pseudo']) && isset($_POST['password'])){
-    $typedLogin = htmlspecialchars($_POST['pseudo']);
+if(isset($_POST['login']) && isset($_POST['password'])){
+    $typedLogin = htmlspecialchars($_POST['login']);
     $typedPassword = htmlspecialchars($_POST['password']);
-    $arrayUser = read($typedLogin);
+    $arrayUser = read($login, $password);
     
-    if(password_verify($typedPassword, $arrayUser['password'])){
+    if( password_verify($typedPassword, $arrayUser['pass'])){
         // session_start();
-        $_SESSION['id'] = $arrayUser['pseudo'];
-        header('Location: index.php?page=tchat');
+        $_SESSION['username'] = $arrayUser['pseudo'];
+        header('Location: index.php?page=galerie');
     }
     else
     {$error = 'erreur';}
 }
 
+  
