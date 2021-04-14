@@ -1,23 +1,29 @@
 <?php 
 
-class Authentification {
 
 
-    public $login;
-    public $password;
+    if (!function_exists('read')) {
+
+ function read($login) :array
+{
+    require 'bd/connexionDB.php';
+
 
   
-       public function read(): array
-        {
-            require 'bd/connexionDB.php';
-            $sql = 'SELECT pseudo, pass FROM user WHERE pseudo = :pseudo';
-            $getUser = $db->prepare($sql);
-            $getUser->bindValue(":pseudo", $login, PDO::PARAM_STR);
-            $getUser->bindValue(":pass", $password, PDO::PARAM_STR);
-            $getUser->execute();
-            $response = $getUser->fetch(PDO::FETCH_ASSOC);
-            return $response;
-        }
+
+    try { 
+         $sql = 'SELECT pseudo, pass FROM user WHERE pseudo = :pseudo';
+        $getUser = $db->prepare($sql);
+          $getUser->bindValue(":pseudo", $login, PDO::PARAM_STR);
+        $getUser->execute();
+        $rep = $getUser->fetch(PDO::FETCH_ASSOC);
+        return $rep;
+    } catch (PDOException $e) {
+        echo 'Échec lors de la connexion : ' . $e->getMessage();
     }
+}
+
+  
+}
 
 

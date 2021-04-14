@@ -708,7 +708,7 @@ label {
 #tchat {
   height: 50vh;
   width: 90vw;
-  background-color: blanchedalmond;
+  background-color: #606c80;
   display: block;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -723,13 +723,19 @@ label {
   margin-top: -5%;
 }
 
-.pseudo {
-  color: blueviolet;
+.mess {
+  color: white;
   font-weight: 800;
+  font-size: 1.4rem;
 }
 
-.content {
-  color: black;
+.user {
+  color: #edbd1f;
+  font-size: 1.3rem;
+}
+
+.date {
+  font-size: 1.1rem;
 }
 
 .form-control-accueil {

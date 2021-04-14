@@ -2,8 +2,8 @@
 
 
 
-$userName = "root";
-$pass = "SimpMarseille13";
+$userName = "i_s";
+$pass = "MarseilleSimplon";
 $host = "localhost";
 $dbName = "covidart";
 

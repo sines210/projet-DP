@@ -3,16 +3,8 @@
 <?php
 
    include('bd/connexionDB.php');
+   include './config/tchatAjax.php';
 
-
-   $see_tchat = $db->query("SELECT user.pseudo , content, tchat_content.id  
-   FROM tchat_content
-   LEFT JOIN user ON tchat_content.id = user.tchat_content_id
-   ORDER BY tchat_content.id ASC
-   LIMIT 100");
-
-$see_tchat = $see_tchat->fetchAll();
-   
 
 
    ?>
@@ -21,13 +13,15 @@ $see_tchat = $see_tchat->fetchAll();
 
 <article class='main-article-chat'>
          <div class="container" > 
-              <!-- <h1>Bonjour <?php echo $_SESSION['pseudo']?> </h1> -->
+              <h1>Bonjour <?php echo $_SESSION['username']?> </h1>
                <div id="tchat">  </div>
           </div>
              <div id="tchatForm">
                 <form action="" method='post'>
                    <label for="message">message </label> <textarea name="content" class="form-control form-control-chat-message"></textarea>
+                   <input type="hidden" id="userName" value=<?php echo $_SESSION['username']?> name="pseudo" />
                    <input type="submit" id='tr'name='submit' class="btn btn-dark btnSub" value='envoyer'/>
+                   
                  </form>
              </div>
 

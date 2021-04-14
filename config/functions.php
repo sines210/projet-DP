@@ -8,7 +8,6 @@
 //         return !empty($_SESSION['username']);
 //     }
 // }
-
 if (!function_exists("create")) {
     function create( string $mail, string $log, string $password): bool
     {

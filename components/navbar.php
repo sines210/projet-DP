@@ -27,7 +27,7 @@
                    <a href="<?='index.php?page=inscription'?>"><li class="log">Inscription</li></a> 
                    <a href="<?='index.php?page=connexion'?>"> <li class="log">Connexion</li></a>
                    <a href="<?='index.php?page=deconnexion'?>"><li class="log">Déconnexion</li></a> 
-                   <a href="<?='index.php?page=tchat'?>"><li class="log">Chat</li></a> 
+                   <a href="<?='index.php?page=chat'?>"><li class="log">Chat</li></a> 
                     </ul>
                     
                 </nav>   

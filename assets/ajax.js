@@ -1,7 +1,7 @@
 
-var url = "http://localhost:3000/config/tchatAjax.php";
+var url = "http://localhost:3001/config/tchatAjax.php";
 // var url = "https://le-chat-de-chat.herokuapp.com/config/tchatAjax.php";
-var timer = setInterval(getMessage, 5000);
+var timer = setInterval(getMessages, 5000);
 var btn = document.querySelector('#tr');
 var tchatContain = document.querySelector('#tchat');
 
@@ -12,10 +12,12 @@ $(function() {
     $('#tchatForm form').submit(function(){
 
         var content = $("#tchatForm form textarea").val();
-        $.post(url,{action:"addMessage", content: content}, function(data){
+        var pseudo= $("#tchatForm form #userName").val();
+        $.post(url,{action:"addMessage", content: content, pseudo:pseudo}, function(data){
             if(data.erreur == 'ok'){
-            getMessage();
-            $("#tchatForm form textarea").val("")();  }
+            getMessages();
+            $("#tchatForm form textarea").val("")(); 
+            }
             else{
                data.erreur.innerHTML = "erreur";
             }
@@ -26,9 +28,11 @@ $(function() {
 
 
 
-function getMessage() {
+function getMessages() {
     var content = $("#tchatForm form textarea").val();
-    $.post(url,{action:"getMessage"}, function(data){
+    var userName = $("#tchatForm form #username").val();
+
+    $.post(url,{action:"getMessages"}, function(data){
         if(data.erreur == 'ok'){
            tchatContain.innerHTML = data.result;}
         else{
