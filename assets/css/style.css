@@ -72,6 +72,14 @@
   width: 100%;
 }
 
+.mb-nav1 {
+  -ms-flex: 1 2 60%;
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin: 0% 0;
+  width: 100%;
+}
+
 nav {
   background-color: #8e8e8e;
   text-transform: uppercase;
@@ -179,7 +187,12 @@ a:active {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
+  #head-title {
+    width: 40vw;
+    margin: -5vh 15vw 0 20vw;
+  }
+
   .promo {
     font-size: 1.3rem;
   }
@@ -257,23 +270,6 @@ a:active {
   box-shadow: 0px 1px 5px #222222;
 }
 
-.foot-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.foot-nav li {
-  color: #006937;
-  font-size: 2.5rem;
-  font-weight: 800;
-  list-style: none;
-}
-
-.lif i {
-  margin: 0 10%;
-}
-
 .pre-foot {
   display: grid;
   place-items: center;
@@ -305,6 +301,14 @@ a:active {
 
 .uni {
   font-size: 2rem;
+}
+
+.ifoot {
+  transition: 0.2s transform ease;
+}
+
+.ifoot:hover {
+  color: #006937;
 }
 
 footer {
@@ -341,7 +345,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
   footer {
-    display: block;
+    display: flex;
   }
 }
 html {
@@ -473,6 +477,10 @@ main {
 }
 
 @media screen and (max-width: 1028px) {
+  .cartes {
+    margin-top: 5vh;
+  }
+
   .carte {
     height: 15vh;
     width: 15vh;
@@ -599,6 +607,10 @@ main {
   margin: 8% 0 3% 0;
 }
 
+.iconesImgCards {
+  display: flex;
+}
+
 .iconesImgCards i {
   font-size: 4rem;
   color: black;
@@ -609,6 +621,7 @@ main {
   opacity: 0;
   margin-left: 30%;
   transform: translateY(0%);
+  transform: translateX(0%);
   transition: 0.5s ease;
 }
 
@@ -622,7 +635,16 @@ main {
 
 .deployI {
   opacity: 1;
-  transform: translateY(200%);
+  transform: translateY(150%);
+  transform: translateX(5%);
+}
+
+.subIcon {
+  transition: 0.2s ease;
+}
+
+.subIcon:hover {
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
@@ -667,10 +689,6 @@ label {
   text-align: center;
 }
 
-.textArea {
-  padding: 0 15%;
-}
-
 .submit {
   padding: 1%;
   color: #222222;
@@ -710,8 +728,7 @@ label {
   width: 90vw;
   background-color: #606c80;
   display: block;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  overflow: scroll;
   border: 2px dashed #333333;
 }
 
@@ -727,11 +744,13 @@ label {
   color: white;
   font-weight: 800;
   font-size: 1.4rem;
+  margin-left: 1.3%;
 }
 
 .user {
   color: #edbd1f;
   font-size: 1.3rem;
+  margin-left: 1%;
 }
 
 .date {

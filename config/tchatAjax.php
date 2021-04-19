@@ -50,8 +50,7 @@ $d = [];
 
         // au lieu de fetchAll tte la table je récupère les data ligne par ligne et je les ajoute en bouclant 
         while( $data = $getMessage->fetch(PDO::FETCH_ASSOC)){
-        // $d['result'] .= "<br><span class='pseudo'><strong>".$data['username']."</strong> : </span>" . "<span class='content'>". htmlentities($data["content"])."</span>". "<span class='date'>". htmlentities($data["date_message"])."</span>"; }    
-       $d['result'] .= "<div class='user'><strong>" . $data['username'] . " </strong>, le <span class='date'>" . htmlentities($data["date_message"]) . "</span></div>" . "<div class='mess'><strong>" . nl2br(htmlentities($data['content'])) . "</strong></div>"; 
+       $d['result'] .= "<div class = messageBox><div class='user'><strong>" . $data['username'] . " </strong>, le <span class='date'>" . htmlentities($data["date_message"]) . "</span></div>" . "<div class='mess'><strong>" . nl2br(htmlentities($data['content'])) . "</strong></div></div>"; 
         $d["erreur"] = 'ok';
     }
     }

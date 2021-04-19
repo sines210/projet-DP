@@ -12,11 +12,11 @@
         </div>
         <div class="mb-3">
             <label for="pseudo" class="form-label">Votre pseudo</label>
-           <input type="text" class="form-control" name='pseudo' id="pseudoConnexion" >
+           <input type="text" class="form-control" autocomplete='off' name='pseudo' id="pseudoConnexion" >
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-            <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+            <input type="password" class="form-control"  name="password" id="exampleInputPassword1">
         </div>
         <div class="mb-3">
             <label for="checkPassword" class="form-label">Vérifier mot de passe</label>

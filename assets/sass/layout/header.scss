@@ -12,7 +12,7 @@
   color:white;
   font-weight: 700;
 }
-
+  
 //banniere
 .head-banniere
 {height: 115vh;
@@ -66,6 +66,14 @@ color: white;
 }
 .mb-nav
 {-ms-flex: 1 2 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin: 0% 0;
+  width: 100%; 
+}
+
+.mb-nav1
+{-ms-flex: 1 2 60%;
   flex: 0 0 40%;
   max-width: 40%;
   margin: 0% 0;
@@ -179,8 +187,13 @@ color: black;}
   {display: flex;
   justify-content: center;}
 
-      @media screen and (max-width: 768px) {
-  
+     
+
+      @media screen and (max-width: 700px) {
+
+        #head-title
+        {width: 40vw;
+        margin : -5vh 15vw 0 20vw}
 
             .promo
              {font-size: 1.3rem;}
@@ -244,6 +257,7 @@ color: black;}
               transform: translateX(0px);
             }
           }
+      
       
         
       

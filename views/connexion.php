@@ -1,5 +1,7 @@
 
-<?php require './config/auth.php' ?>
+<?php require './config/auth.php';
+$error= null;
+?>
 
 
 <article class="inscription">
@@ -7,7 +9,7 @@
   <form method="post">
    <div class="mb-3">
      <label for="pseudo" class="form-label">Votre pseudo</label>
-      <input type="text" class="form-control" name='login' id="pseudoConnexion" >
+      <input type="text" class="form-control" autocomplete='off' name='login' id="pseudoConnexion" >
    </div>
 
   <div class="mb-3">
@@ -17,6 +19,7 @@
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="erreur btn-alert"><?php echo $error?></div>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>

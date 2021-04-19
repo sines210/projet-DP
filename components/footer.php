@@ -1,10 +1,4 @@
 <section class="onglets-foot-responsive">
-                <ul class="foot-nav">
-                    <li class="favoris lif"><i class="far fa-heart"></i></li>
-                    <li class="recherche lif"><i class="fas fa-search"></i></li>
-                    <li class="comments"><i class="far fa-comments"></i></li>
-                    <li class="login lif"><i class="far fa-user"></i></li>
-                </ul>
             </section>
             <article class="pre-foot">
                 <img src="./assets//img/logo.png"class="logo-foot" alt="logo">
@@ -16,11 +10,11 @@
                      </div>
             
                     <div class="links-prefoot">
-                        <div class="sn face"><i class="fab fa-facebook-f"></i></div>
+                       <a href="https://fr-fr.facebook.com/" aria-label="voir Facebook"> <div class="sn face"><i class="fab fa-facebook-f ifoot"></i></div></a>
                         <div class="li-foot uni lif1"> &#x00B7;</div>
-                        <div class="sn insta"><i class="fab fa-instagram"></i></div>
+                        <a href="https://www.instagram.com/?hl=fr" aria-label="voir Instagram"> <div class="sn insta"><i class="fab fa-instagram ifoot"></i></div></a>
                         <div class="li-foot uni lif1"> &#x00B7;</div>
-                        <div class="sn snap"><i class="fab fa-snapchat-ghost"></i></div>
+                        <a href="https://www.snapchat.com/l/fr-fr/" aria-label="voir Snapchat"> <div class="sn snap"><i class="fab fa-snapchat-ghost ifoot"></i></div></a>
                     </div>
             </article>
             <footer>

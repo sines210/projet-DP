@@ -14,23 +14,8 @@
 
 }
 
-.foot-nav
-{  display:flex;
-    flex-direction: row;
-    justify-content: space-around;}
 
-.foot-nav li
-{  color: #006937;
-    font-size: 2.5rem;
-    font-weight: 800;
-    list-style: none;
-}
-.lif i
-{margin: 0 10%;
-}
-
-
-//pre-foot-logoµ
+//pre-foot-logo
 
 .pre-foot
 {display: grid;
@@ -60,7 +45,11 @@ font-size: 1.8rem;}
 .uni
 {font-size: 2rem;}
 
+.ifoot
+{transition: 0.2s transform ease;}
 
+.ifoot:hover
+{color:#006937;}
 
 
 //footer
@@ -72,15 +61,18 @@ align-items: center;
 height: 8vh;
 color: white;
 padding: 0 3% ;}
+
 .logo-git i
 {font-size: 3rem;
 transition: 0.5s ease;
 color:white}
+
 .logo-git i:hover
 {color:#006937}
 
 .brand-left
 {font-size: 1.2rem;}
+
 .brand-vert
 {color:  #62EE87;}
 
@@ -90,5 +82,5 @@ color:white}
 @media screen and (max-width: 1024px)
 {
     footer 
-    {display: block; }
+    {display: flex; }
 }

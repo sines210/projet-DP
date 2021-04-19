@@ -16,8 +16,9 @@ $error = null;
             $_SESSION['username'] = $typedLogin;
           return   header('Location: index.php?page=chat');
         }
+     
         else
-        {$error = 'erreur';}
+        {$error = 'erreur';} 
 }
 
 

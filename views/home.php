@@ -6,9 +6,9 @@
                     <button class="bouton but-banniere"><a href="<?='index.php?page=galerie'?>">Voir la gallerie</a></button>
                 </section>
                 <div id="scrollUp">
-                        <div id="btn-scroll"> &#11192;   </div>
+                        <div id="btn-scroll" aria-label="Cliquez pour retourner en haut de la page" > &#11192;   </div>
                 </div> 
-
+  
             </header>
 
             <article id="article1">
@@ -24,17 +24,17 @@
                     <a href="<?='index.php?page=connexion'?>"> <button class="s-button">Se connecter</button></a>
                 </div>
                 <div class="right">
-                    <img src="..." class="img-sec-a2" alt="aromat"></div>
+                    <img src="..." class="img-sec-a2" alt="photo street art"></div>
                 </section>
              
                 <section class="section-a2 sa2">  
                     <div class="cartes">
-                        <img src="" class="carte c1" alt="">
-                        <img src="" class="carte c2" alt="">
-                        <img src="" class="carte c3" alt="">
-                        <img src="" class="carte c4" alt="">
-                        <img src="" class="carte c5" alt="">
-                        <img src="" class="carte c6" alt="">
+                        <img src="" class="carte c1" alt="Photo street art">
+                        <img src="" class="carte c2" alt="Photo street art">
+                        <img src="" class="carte c3" alt="Photo street art">
+                        <img src="" class="carte c4" alt="Photo street art">
+                        <img src="" class="carte c5" alt="Photo street art">
+                        <img src="" class="carte c6" alt="Photo street art">
 
                     </div>
                     <div class="right right-2">

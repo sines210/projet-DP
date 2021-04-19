@@ -5,7 +5,9 @@
    include('bd/connexionDB.php');
    include './config/tchatAjax.php';
 
-
+if(!isset($_SESSION['username'])){
+   return   header('Location: index.php?page=connexion');
+}
 
    ?>
 
@@ -18,7 +20,7 @@
           </div>
              <div id="tchatForm">
                 <form action="" method='post'>
-                   <label for="message">message </label> <textarea name="content" class="form-control form-control-chat-message"></textarea>
+                   <label for="message">message </label> <textarea name="content" id="sendMessage" class="form-control form-control-chat-message"></textarea>
                    <input type="hidden" id="userName" value=<?php echo $_SESSION['username']?> name="pseudo" />
                    <input type="submit" id='tr'name='submit' class="btn btn-dark btnSub" value='envoyer'/>
                    
