@@ -1,5 +1,5 @@
 
-var url = "http://localhost:3001/config/tchatAjax.php";
+var url = "https://covidart.herokuapp.com/config/tchatAjax.php";
 var timer = setInterval(getMessages, 5000);
 var btn = document.querySelector('#tr');
 var tchatContain = document.querySelector('#tchat');
