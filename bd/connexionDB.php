@@ -2,10 +2,6 @@
 
 
 
-$userName = "i_s";
-$pass = "MarseilleSimplon";
-$host = "localhost";
-$dbName = "covidart";
 
 
 
