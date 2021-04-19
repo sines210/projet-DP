@@ -53,7 +53,7 @@ if (isset($_POST['submit_contact']))
     else if (!isset($_COOKIE['submit_contact']))
     {
         /* Destinataire (votre adresse e-mail) */
-        $to = 'casperSouidi@gmail.com';
+        $to = $_ENV['MAIL_USERNAME'];
  
         /* Construction du message */
         $msg  = 'Bonjour,'."\r\n\r\n";
