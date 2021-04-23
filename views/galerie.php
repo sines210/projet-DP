@@ -53,7 +53,7 @@
                         <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/noFun2.jpg" class="card-img-top" alt="Photo street nothing is funny">
+                    <img src="./assets/img/noFun2.png" class="card-img-top" alt="Photo street nothing is funny">
                     <div class="card-body">
                       <h5 class="card-title">No Fun </h5>
                       <p class="card-text">Banksy</p>
