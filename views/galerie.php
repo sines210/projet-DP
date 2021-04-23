@@ -12,7 +12,7 @@
                               <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/mandalorian.jpeg" class="card-img-top" alt="Photo street art baby yoda">
+                    <img src="./assets/img/mandalorian.jpg" class="card-img-top" alt="Photo street art baby yoda">
                     <div class="card-body">
                       <h5 class="card-title">Baby Yoda</h5>
                       <p class="card-text">Quelquepart en 2020</p>
@@ -96,7 +96,7 @@
                            <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/kiss.jpg" class="card-img-top" alt="Photo street art covid kiss">
+                    <img src="./assets/img/kiss3.jpg" class="card-img-top" alt="Photo street art covid kiss">
                     <div class="card-body">
                       <h5 class="card-title">Bisou covid</h5>
                       <p class="card-text">Venice Beach, Los Angeles, Californie, Artiste : Pony Wave </p>
