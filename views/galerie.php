@@ -126,4 +126,4 @@
               </ul>
         </div> 
 
-        <script src="/assets/appGalerie.js"></script>
+        <script src="/assets/appGalerie.min.js"></script>

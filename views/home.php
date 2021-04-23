@@ -62,4 +62,4 @@
             </article>
 
 
-            <script src="/assets/app.js"></script>
+            <script src="/assets/app.min.js"></script>

@@ -29,5 +29,5 @@ if(!isset($_SESSION['username'])){
 
      </article>  
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-<script src="../assets/app.js"></script>
-<script src="../assets/ajax.js"></script>
+<script src="../assets/app.min.js"></script>
+<script src="../assets/ajax.min.js"></script>

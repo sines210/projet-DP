@@ -27,4 +27,4 @@
 </article>
 
 
-  <script src="/assets/mainApp.js"></script>
+  <script src="/assets/mainApp.min.js"></script>
