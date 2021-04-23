@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.min.css"> 
 
 <?php
+header('Cache-Control: max-age=31536000');
 header("X-XSS-Protection:1; mode=block");
 //ce header protège des failles XSS des infos envoyées dans les header http via Internet Explorer, Chrome et Safari, le 1 dit que la protection est active et le bloxk que la réponse soit bloquée si une attaque est détectée
 header("X-Frame-Options:SAMEORIGIN"); 
