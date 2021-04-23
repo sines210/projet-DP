@@ -39,7 +39,7 @@
                           <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/monPrecieux.jpg" class="card-img-top" alt="Photo street art golum">
+                    <img src="./assets/img/monPrecieux2.jpg" class="card-img-top" alt="Photo street art golum">
                     <div class="card-body">
                       <h5 class="card-title">Mon précieux</h5>
                       <p class="card-text"> Mauerpark public park, Berlin, Allemagne, Artiste : Eme Freethinker</p>
@@ -53,7 +53,7 @@
                         <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/noFun.jpg" class="card-img-top" alt="Photo street nothing is funny">
+                    <img src="./assets/img/noFun2.jpg" class="card-img-top" alt="Photo street nothing is funny">
                     <div class="card-body">
                       <h5 class="card-title">No Fun </h5>
                       <p class="card-text">Banksy</p>
@@ -68,7 +68,7 @@
                   <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/ideas.jpg" class="card-img-top" alt="Photo street art woman's hair">
+                    <img src="./assets/img/ideas2.jpg" class="card-img-top" alt="Photo street art woman's hair">
                     <div class="card-body">
                       <h5 class="card-title">Femme aux cheveux</h5>
                       <p class="card-text">Vinie-Graffiti-Hair France</p>
@@ -82,7 +82,7 @@
                           <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/kids.jpg" class="card-img-top" alt="Photo street art kids">
+                    <img src="./assets/img/kids2.jpg" class="card-img-top" alt="Photo street art kids">
                     <div class="card-body">
                       <h5 class="card-title">Kids</h5>
                       <p class="card-text">Londres</p>
@@ -110,7 +110,7 @@
                            <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-                    <img src="./assets/img/kiss2.jpg" class="card-img-top" alt="Photo street art covid romance ">
+                    <img src="./assets/img/kiss4.jpg" class="card-img-top" alt="Photo street art covid romance ">
                     <div class="card-body">
                       <h5 class="card-title">Romance covid</h5>
                       <p class="card-text">Bryne, Norvège, Artiste : Pøbel</p>

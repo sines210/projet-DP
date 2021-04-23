@@ -25,7 +25,7 @@
                           <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-            <img src="./assets/img/pq.jpg" class="card-img-top" alt="Photo street art toilet paper">
+            <img src="./assets/img/pq2.jpg" class="card-img-top" alt="Photo street art toilet paper">
             <div class="card-body">
               <h5 class="card-title">Psst...</h5>
               <p class="card-text"> Los Angeles, états-Unis, Artiste : Teachr1</p>
@@ -39,7 +39,7 @@
                            <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-            <img src="./assets/img/treeHair.jpg" class="card-img-top" alt="Photo street art tree hair">
+            <img src="./assets/img/treeHair2.jpg" class="card-img-top" alt="Photo street art tree hair">
             <div class="card-body">
               <h5 class="card-title">Homme chevelu</h5>
               <p class="card-text">Martinique, Netherlands Antilles. Artiste : Nuxuno Xän -</p>
@@ -53,7 +53,7 @@
                            <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-              <img src="./assets/img/desinfection2.jpg" class="card-img-top" alt="Photo street art desinfection">
+              <img src="./assets/img/desinfection4.jpg" class="card-img-top" alt="Photo street art desinfection">
               <div class="card-body">
                 <h5 class="card-title">Désinfection</h5>
                 <p class="card-text">Los Angeles, Californie, Artiste : Hijack </p>

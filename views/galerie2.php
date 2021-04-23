@@ -25,7 +25,7 @@
                           <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-            <img src="./assets/img/wearMask.jpg" class="card-img-top" alt="Photo street art wear a mask">
+            <img src="./assets/img/wearMask2.jpg" class="card-img-top" alt="Photo street art wear a mask">
             <div class="card-body">
               <h5 class="card-title">Porter un masque</h5>
               <p class="card-text">Conakry, Guinée</p>
@@ -53,7 +53,7 @@
                           <button class="subIcon" style="background-color:transparent; border:none" aria-label="ajouter aux favoris" type="submit">   <i class="far fa-heart subIcon"></i></button> </form>
                             <a href="<?='index.php?page=chat'?>"><button class="subIcon" style="background-color:transparent; border:none" aria-label="aller sur le chat">   <i class="far fa-comments subIcon"></i></button>  </a>
                        </div>
-            <img src="./assets/img/desinfection.jpg" class="card-img-top" alt="Photo street art desinfection">
+            <img src="./assets/img/desinfection3.jpg" class="card-img-top" alt="Photo street art desinfection">
             <div class="card-body">
               <h5 class="card-title">Désinfection</h5>
               <p class="card-text">Rio de Janeiro, Brésil</p>

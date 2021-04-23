@@ -48,7 +48,7 @@ var c4=document.querySelector(".c4");
 var c5=document.querySelector(".c5");
 var c6=document.querySelector(".c6");
 
-var images = ["./assets/img/kiss3.jpg", "./assets/img/desinfection2.jpg", "./assets//img/ideas.jpg", "./assets/img/kids.jpg", "./assets/img/pq.jpg", "./assets/img/wearMask.jpg", "./assets/img/umbrella.jpg"]
+var images = ["./assets/img/kiss3.jpg", "./assets/img/desinfection4.jpg", "./assets//img/ideas2.jpg", "./assets/img/kids2.jpg", "./assets/img/pq2.jpg", "./assets/img/wearMask.jpg", "./assets/img/umbrella.jpg"]
 
 c1.src=images[0]
 c2.src=images[1]
