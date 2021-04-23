@@ -10,7 +10,6 @@
     <meta name="description" content="Covid-@rt - Partage de photos, idées...">
     <meta name="robots" content="nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
 
 
     <title>Covid-@rt</title>
