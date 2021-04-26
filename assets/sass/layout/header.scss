@@ -74,8 +74,8 @@ color: white;
 
 .mb-nav1
 {-ms-flex: 1 2 60%;
-  flex: 0 0 40%;
-  max-width: 40%;
+  flex: 0 0 60%;
+  max-width: 60%;
   margin: 0% 0;
   width: 100%; 
 }
@@ -204,7 +204,7 @@ color: black;}
       
           .head-name
           {font-size: 1.4rem;}
-      
+          
           //on affiche le menu burger au format mobile et on transforme le curseur avec un pointer au survol de celui-ci
           .menu-burger {
             display: block;

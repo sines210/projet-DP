@@ -29,7 +29,7 @@ crossClose.addEventListener("click", () =>
         if(element.style.animation)
         {element.style.animation = ''}
         else
-        {element.style.animation = `links-fading 0.5s ease forwards ${index/6 + 0.5}s`} //la division permet d'avoir un effet graduelle proportionné et .5s pour délai initial commun
+        {element.style.animation = `links-fading 0.5s ease forwards ${index/6 + 0.5}s`} 
       });
 })
 
@@ -66,7 +66,6 @@ var btnScroll = document.querySelector("#btn-scroll");
 btnScroll.addEventListener('click', ()=>
 {
     window.scrollTo({top: 0, behavior: 'smooth'});})
-//comportement byzzarre si je le passe en require???
 
 
 //dropdown connexion

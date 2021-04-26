@@ -40,8 +40,6 @@ $d = [];
       
     }
 
-
-
     //affiche les derniers messages
     if($_POST['action'] == "getMessages" ){
 

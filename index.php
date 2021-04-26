@@ -35,6 +35,9 @@ header("X-Content-Type-Options:nosniff");
 //attaques MIME => MIME sniffing vulnerabilities can occur when a website allows users to upload data to the server. The vulnerability comes into play when an attacker disguises an HTML file as a different file type (e.g. a JPEG, zip file, etc.). ..
 // With the nosniff option, if the server says the content is text/html, the browser will render it as text/html.
 header("Strict-Transport-Security:max-age=31536000; includeSubdomains; preload");
+// Remplace automatiquement tous les liens non sécurisés par des liens sécurisés. Par exemple, http://www.exemple.com/une/page/ est automatiquement remplacé par https://www.exemple.com/une/page/ avant d'accéder au serveur.
+// Si la sécurité de la connexion ne peut être assurée (par exemple, le certificat TLS est autosigné), celui-ci affiche un message d'erreur et interdit à l'utilisateur l'accès au site à cause de cette erreur.
+
 // header("Referrer-Policy : no-referrer-when-downgrade");
 // header("Content-Securiy-Policy:upgrade-insecure-requests");
 

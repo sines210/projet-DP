@@ -81,9 +81,7 @@ let deployIcons = () =>{
         {  iconsCards[c].classList.remove('deployI') }
       }
     })
-  }
-  
-  
+  }  
   }
   deployIcons();
 

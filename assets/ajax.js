@@ -29,10 +29,7 @@ $(function() {
     })
 });
 
-
-
 function getMessages(event) {
-
 
     var content = $("#tchatForm form textarea").val();
     var userName = $("#tchatForm form #username").val();
@@ -47,8 +44,6 @@ function getMessages(event) {
         }
     }, "json");
     return false;
-
-
 }
 
 const autoscroll = ()=>{
