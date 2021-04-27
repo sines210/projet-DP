@@ -1,7 +1,7 @@
 
           <?php require './config/config_contact.php'; ?>
                 
-            <article class="article-banniere">     </article>
+            <article class="article-banniere article">     </article>
             <article class="article-form">
                 <form action="" id='form-contact' method='post'>
 

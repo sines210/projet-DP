@@ -13,7 +13,7 @@ if(!isset($_SESSION['username'])){
 
 
 
-<article class='main-article-chat'>
+<article class='main-article-chat article'>
          <div class="container" > 
               <h1>Bonjour <?php echo $_SESSION['username']?> </h1>
                <div id="tchat">  </div>

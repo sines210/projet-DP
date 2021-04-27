@@ -11,7 +11,7 @@
   
             </header>
 
-            <article id="article1">
+            <article id="article1" class="article">
                 <section class="section-a1 sa1">
                     <div class="left left-1">
                     <div class="s-titre">

@@ -2,7 +2,7 @@
 <?php require './config/sign_up.php' ?>
 
 
-<article class="inscription">
+<article class="inscription article">
 
     <form class="login-form" method="POST" >
   

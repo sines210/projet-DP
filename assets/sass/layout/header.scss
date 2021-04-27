@@ -51,9 +51,9 @@ color: white;
 
 
 .c-desk1
-{-ms-flex: 1 2 25%;
-  flex: 0 0 25%;
-  max-width: 25%;
+{-ms-flex: 1 2 30%;
+  flex: 0 0 30%;
+  max-width: 30%;
   margin: 1% 3%;
   width: 100%; 
 }
@@ -73,9 +73,9 @@ color: white;
 }
 
 .mb-nav1
-{-ms-flex: 1 2 60%;
-  flex: 0 0 60%;
-  max-width: 60%;
+{-ms-flex: 1 2 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
   margin: 0% 0;
   width: 100%; 
 }
@@ -84,7 +84,6 @@ nav{
    
    background-color: #8e8e8e;
    text-transform: uppercase;
-  //  display: flex;
   align-content: center;
   flex-wrap: wrap;
   height: 12vh;
@@ -191,9 +190,7 @@ color: black;}
 
       @media screen and (max-width: 700px) {
 
-        #head-title
-        {width: 40vw;
-        margin : -5vh 15vw 0 20vw}
+       
 
             .promo
              {font-size: 1.3rem;}
@@ -227,6 +224,13 @@ color: black;}
             transform: translateX(-110%);
 
           }
+          .mb-nav2
+          {-ms-flex: 1 2 50%;
+           flex: 0 0 50%;
+           max-width: 50%;
+           margin: 0% 0;
+           width: 100%; 
+            }
           .crossed
           {display: flex;
           justify-content: flex-end;}
@@ -237,11 +241,13 @@ color: black;}
           position: fixed;
           z-index: 29;
       }
-      .deploy {
+         .deploy {
         transform: translateX(0%);}
 
           .connect
           {top: 55%;}
+
+        
 
           }
          

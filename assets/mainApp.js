@@ -42,11 +42,13 @@ deployMenu()
 
 var menuDrop = document.querySelector('.connect');
 var toDrop = document.querySelector('.arrow-show');
+let articleClass = document.querySelector('.article');
 
-toDrop.addEventListener('mouseover', (event) => {
+
+toDrop.addEventListener('click', (event) => {
   menuDrop.classList.add('toDrop');
 })
 
-document.body.addEventListener('click', ()=>{
-    menuDrop.classList.remove('toDrop');
-  })
+articleClass.addEventListener('click', ()=>{
+  menuDrop.classList.remove('toDrop');
+})

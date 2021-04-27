@@ -2,8 +2,8 @@
  
 
 
-         <div class="boutique">
-            <article class="cardDeck">
+         <article class="boutique">
+            <article class="cardDeck article">
               <div class="row row-cols-1 row-cols-md-2 g-2">
                 <div class="col">
                     <div class="card" style='width: 38rem; '>

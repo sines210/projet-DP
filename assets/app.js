@@ -9,7 +9,7 @@ let deployMenu =  () =>
 {let burgerMenu = document.querySelector(".menu-burger");
 let navigation = document.querySelector(".head-nav");
 let navLinks = document.querySelectorAll(".head-nav li");
-let crossClose = document.querySelector(".cross")
+let crossClose = document.querySelector(".cross");
 
 
 burgerMenu.addEventListener("click", () =>
@@ -72,11 +72,13 @@ btnScroll.addEventListener('click', ()=>
 
 var menuDrop = document.querySelector('.connect');
 var toDrop = document.querySelector('.arrow-show');
+let articleClass = document.querySelector('.article');
 
-toDrop.addEventListener('mouseover', (event) => {
+
+toDrop.addEventListener('click', (event) => {
   menuDrop.classList.add('toDrop');
 })
 
-document.body.addEventListener('click', ()=>{
+articleClass.addEventListener('click', ()=>{
   menuDrop.classList.remove('toDrop');
 })
