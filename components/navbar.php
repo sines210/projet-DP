@@ -9,7 +9,7 @@
                         <div class="line3"></div>
                     </div>
                     <ul class="head-nav mb-nav">
-                          <li class=" crossed">   <div class="cross" aria-label="Fermer"> &#735;</div></li>
+                          <li class="crossed">   <div class="cross" aria-label="Fermer"> &#735;</div></li>
                             <li class="linav">  <a href="<?='index.php?page=home'?>" class="lien">Accueil</a> </li>
                             <li class="linav">  <a href="<?='index.php?page=galerie' ?>" class="lien">Galerie</a></li>
                             <li class="linav">  <a href="<?='index.php?page=contact'?>" class="lien">Contact</a></li>

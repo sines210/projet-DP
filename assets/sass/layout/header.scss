@@ -93,12 +93,12 @@ nav{
     z-index: 20;
   box-shadow: 1px 2px 2px#222222;
 }
-.linav{
+.li{
   transition: transform 1s ease;
 }
 
 
-.linav a:hover, li:hover
+.li a:hover, li:hover
 {
 color: black;}
 
@@ -113,7 +113,7 @@ color: black;}
     }
     .cross
     {display: none;}
-    .head-nav li 
+    .head-nav .linav 
     {width: 30%;
       margin-top: 3%;
     }
