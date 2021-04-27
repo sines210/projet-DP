@@ -1,4 +1,4 @@
-<header class="head-banniere">
+<header class="head-banniere article">
                 <section class="text-banniere">
                     <div id="ad-banniere">
                         Lorsque l'art revisite la pandémie 
@@ -11,7 +11,7 @@
   
             </header>
 
-            <article id="article1" class="article">
+            <article id="article1"">
                 <section class="section-a1 sa1">
                     <div class="left left-1">
                     <div class="s-titre">

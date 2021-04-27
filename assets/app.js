@@ -8,7 +8,7 @@ const cl = console.log;
 let deployMenu =  () =>
 {let burgerMenu = document.querySelector(".menu-burger");
 let navigation = document.querySelector(".head-nav");
-let navLinks = document.querySelectorAll(".head-nav li");
+let navLinks = document.querySelectorAll(".head-nav .linav");
 let crossClose = document.querySelector(".cross");
 
 
@@ -71,11 +71,12 @@ btnScroll.addEventListener('click', ()=>
 //dropdown connexion
 
 var menuDrop = document.querySelector('.connect');
-var toDrop = document.querySelector('.arrow-show');
+var toDrop = document.querySelector('.onglets-navigation');
 let articleClass = document.querySelector('.article');
 
 
 toDrop.addEventListener('click', (event) => {
+  event.preventDefault();
   menuDrop.classList.add('toDrop');
 })
 
