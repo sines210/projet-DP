@@ -4,7 +4,7 @@ $error= null;
 ?>
 
 
-<article class="inscription article">
+<article class="connexion article">
 
   <form method="post">
    <div class="mb-3">

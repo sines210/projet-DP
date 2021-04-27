@@ -708,6 +708,13 @@ label {
 }
 
 .inscription {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+.connexion {
   height: 40vh;
   display: flex;
   justify-content: center;
