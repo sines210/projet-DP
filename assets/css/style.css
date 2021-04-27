@@ -115,7 +115,7 @@ nav {
   display: none;
 }
 
-.head-nav li {
+.head-nav .linav {
   width: 30%;
   margin-top: 3%;
 }
