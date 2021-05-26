@@ -1,7 +1,7 @@
 <?php
 
 
-
+  
 $userName = $_ENV['DB_USERNAME'];
 $pass = $_ENV['DB_PASSWORD'];
 $dsn =  $_ENV['DSN'];

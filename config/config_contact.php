@@ -34,20 +34,28 @@ $mail = new PHPMailer(true);
       
 
 
+// Connexion serveur 
+
+$mail_host = $_ENV['MAIL_HOST'];
+$mail_username = $_ENV['MAIL_USERNAME'];
+$mail_password = $_ENV['MAIL_PASSWORD'];
+$mail_port = $_ENV['MAIL_PORT'];
+
+
 try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->Host       = $mail_host;                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'casperSouidi@gmail.com';                     //SMTP username
-    $mail->Password   = 'casperSouidi13';                               //SMTP password
+    $mail->Username   = $mail_username;                     //SMTP username
+    $mail->Password   = $mail_password;                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-    $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+    $mail->Port       = $mail_port;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('casperSouidi@gmail.com', 'mailer');
-    $mail->addAddress('casperSouidi@gmail.com', 'Admin');     //Add a recipient
+    $mail->setFrom($mail_username, 'mailer');
+    $mail->addAddress($mail_username, 'Admin');     //Add a recipient
  
 
 
