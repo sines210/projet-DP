@@ -1,4 +1,85 @@
 <?php
+
+
+
+/* Si le formulaire est envoyé alors on fait les traitements */
+
+
+
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\OAuth;
+
+
+
+if (isset($_POST['submit_contact']))
+{
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
+//Instantiation and passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+
+    /* Récupération des valeurs des champs du formulaire */
+  
+      $contact_name	= htmlspecialchars($_POST['contact_name']) ;
+      $contact_first_name = htmlspecialchars($_POST['contact_first_name']) ;
+      $expediteur = htmlspecialchars($_POST['contact_email']) ;
+      $sujet = htmlspecialchars($_POST['contact_subject']) ;
+      $contact_message = htmlspecialchars( $_POST['contact_message']);
+      
+
+
+try {
+    //Server settings
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'casperSouidi@gmail.com';                     //SMTP username
+    $mail->Password   = 'casperSouidi13';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+    $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+
+    //Recipients
+    $mail->setFrom('casperSouidi@gmail.com', 'mailer');
+    $mail->addAddress('casperSouidi@gmail.com', 'Admin');     //Add a recipient
+ 
+
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject =   $sujet;
+    $mail->Body    = 'Message from'. '  ' . $contact_first_name . " " . $contact_name . nl2br(":\n  $contact_message ");
+
+    $mail->send();
+    echo 'Message has been sent';
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Si le formulaire est envoyé alors on fait les traitements */
 // if (isset($_POST['submit_contact']))
 // {
@@ -13,7 +94,7 @@
  
 //     /* Expression régulière permettant de vérifier si le 
 //     * format d'une adresse e-mail est correct */
-//     $regex_mail = '/^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$/i';
+    // $regex_mail = '/^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$/i';
  
 //     /* Expression régulière permettant de vérifier qu'aucun 
 //     * en-tête n'est inséré dans nos champs */
