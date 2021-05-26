@@ -44,7 +44,7 @@ $mail_port = $_ENV['MAIL_PORT'];
 
 try {
     //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = $mail_host;                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
@@ -65,7 +65,8 @@ try {
     $mail->Body    = 'Message from'. '  ' . $contact_first_name . " " . $contact_name . nl2br(":\n  $contact_message ");
 
     $mail->send();
-    echo 'Message has been sent';
+    // echo 'Message has been sent';
+    //peut être faire une page pour dire que le mail a bien été envoyé
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
